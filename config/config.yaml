@@ -1,0 +1,20 @@
+# Speaker Verification
+speaker_verification:
+  model_source: "speechbrain/spkrec-ecapa-voxceleb"
+  savedir: "pretrained_models/spkrec-ecapa-voxceleb"
+  threshold: 0.25          # cosine similarity threshold (보통 0.2~0.3)
+  sample_rate: 16000
+
+# ASR
+asr:
+  model_size: "small"      # tiny, base, small, medium (2080 8GB는 small 권장)
+  language: "en"           # null로 두면 자동 감지
+
+# Enrollment
+enrollment:
+  enrolled_dir: "data/enrolled"
+  min_utterances: 3        # 등록 시 최소 발화 개수
+  
+# Tier rules
+tiers:
+  default_tier: 3          # 미등록 화자는 Tier 3

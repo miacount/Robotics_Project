@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Environments
+venv/
+.venv/
+
+# Data (audio files)
+*.wav
+*.mp3
+*.flac
+
+# Models cache
+pretrained_models/
+~/.cache/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store

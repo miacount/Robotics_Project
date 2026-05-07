@@ -1,0 +1,18 @@
+# Deep Learning
+torch==2.1.2
+torchaudio==2.1.2
+
+# Speaker Verification
+speechbrain==1.0.0
+
+# ASR
+openai-whisper==20231117
+
+# Audio I/O
+soundfile==0.12.1
+librosa==0.10.1
+
+# Utilities
+numpy==1.26.4
+pyyaml==6.0.1
+tqdm==4.66.1
