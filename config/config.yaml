@@ -18,3 +18,12 @@ enrollment:
 # Tier rules
 tiers:
   default_tier: 3          # 미등록 화자는 Tier 3
+
+# LLM Task Planner (fine-tuned LLaMA LoRA)
+llm:
+  model_path: "robot_llm_part/my_lora"   # relative to Robotics_Project root
+  max_seq_length: 1024
+  load_in_4bit: true
+  max_new_tokens: 256
+  temperature: 0.7
+  top_p: 0.9

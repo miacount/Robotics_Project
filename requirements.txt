@@ -2,6 +2,13 @@
 torch==2.1.2
 torchaudio==2.1.2
 
+# LLM Task Planner
+unsloth
+trl
+transformers>=4.40.0
+peft
+datasets
+
 # Speaker Verification
 speechbrain==1.0.0
 

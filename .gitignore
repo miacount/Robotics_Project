@@ -25,4 +25,9 @@ pretrained_models/
 .DS_Store
 recordings/
 /tmp/
-pretrained_models/
+
+# robot_llm_part — large model weights and training artifacts
+robot_llm_part/models/
+robot_llm_part/*.safetensors
+robot_llm_part/output/
+robot_llm_part/unsloth_compiled_cache/

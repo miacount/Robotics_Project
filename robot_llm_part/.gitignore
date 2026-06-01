@@ -1,0 +1,9 @@
+# Large model weights (use download_quantized_llama3.py to obtain)
+models/
+*.safetensors
+
+# Training checkpoints and logs
+output/
+
+# Unsloth compiled cache (auto-generated)
+unsloth_compiled_cache/
